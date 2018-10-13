@@ -1,0 +1,6 @@
+framework module s_ios_categories {
+  umbrella header "s_ios_categories-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+PODS:
+  - Kingfisher (4.10.0)
+  - s_ios_categories/Swift (0.1.7)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - s_ios_categories/Swift
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - SnapKit
+  https://github.com/shjyy1983/SSpecs.git:
+    - s_ios_categories
+
+SPEC CHECKSUMS:
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  s_ios_categories: b5c2bf82fae7ee484860c733c00842b754fbc15e
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 1a54208aff176578be9a96a45f23fde2060993e0
+
+COCOAPODS: 1.5.3

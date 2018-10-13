@@ -1,0 +1,29 @@
+# pod install --verbose --no-repo-update
+# pod update s_ios_chatui --no-repo-update
+# pod update --no-repo-update
+platform :ios, '9.0'
+
+# 配置参考
+# https://guides.cocoapods.org/syntax/podfile.html#podfile
+
+source "https://github.com/CocoaPods/Specs.git"
+source "https://github.com/shjyy1983/SSpecs.git"
+ 
+def mylibs_oc 
+end
+
+def mylibs_swift
+    pod 's_ios_categories/Swift'
+end
+
+def libs_swift 
+	pod 'SnapKit'
+    pod 'Kingfisher'
+end 
+
+target :DemoSudoku do
+	mylibs_oc
+    use_frameworks! 
+    libs_swift
+    mylibs_swift
+end
